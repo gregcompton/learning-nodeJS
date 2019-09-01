@@ -1,8 +1,5 @@
 // This will create add random data to a .txt file.
-// run it as many times as you need in order to generate the file size you require
 // i<1000 seems to be the limit for running this before it generates errors
-
-
 
 //maxI<10000 = 700MB , but it throws errors
 //maxI<1000 = 10MB
