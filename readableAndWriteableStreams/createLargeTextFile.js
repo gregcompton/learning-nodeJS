@@ -8,7 +8,6 @@ const maxI = 100;
 
 
 const fs = require('fs');
-//console.log("Create a file demo");
 
 //create a file
  fs.writeFile('large.txt',"this is the first line", (err)=>{
