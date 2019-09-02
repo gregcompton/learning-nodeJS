@@ -1,0 +1,24 @@
+package.JSON is used to hold all the metadata for the project
+use Node Package Manager
+open command prompt and type: npm init
+
+instaling packages using nom
+use npm
+just package re-usable code to include in our own application
+It's a folder with one or more modules in it
+for the tutorial we are going to pick a package from:
+https://www.npmjs.com
+I chose:
+https://www.npmjs.com/package/lodash
+
+
+to install go to the project folder command prompt and type: npm install lodash
+to uninstall go to project folder command prompt and type: npm unistall lodash
+
+
+package dependencies
+"dependencies": {
+  "lodash": "^4.17.15" //major.minor.patch
+                      //^ = only minor and patch updates
+                      //~ = only patch updates
+                      //no modifier = no updates
