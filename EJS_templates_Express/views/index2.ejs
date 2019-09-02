@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>You Searched For : <%= data.userQuery %></h1>
+    <% if(data.loggedIn){ %>
+        <h2>You are logged in as: <%= data.username %> </h2>
+    <% }; %>
+    <ul>
+      <% data.searchResults.forEach(result=>{ %>
+        <li><%= result %></li>
+      <% }); %>
+    </ul>
+    <script src="/public/js/example.js"></script>
+  </body>
+</html>
+
+<!-- more info about the <% %> code nugget
+https://www.w3schools.com/asp/asp_syntax.asp
+or here
+https://ejs.co/#docs-->
