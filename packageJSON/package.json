@@ -9,7 +9,7 @@
   "author": "greg compton",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.15" //major.minor.patch
+    "lodash": "^4.17.21" //major.minor.patch
                         //^ = only minor and patch updates
                         //~ = only patch updates
                         //no modifier = no updates
